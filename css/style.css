@@ -1,0 +1,283 @@
+/*-font-family: 'Playfair Display', serif;-*/
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+
+width: 90%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+
+height: 50px;
+
+align-items: center;
+}
+.logo{
+
+width: 20%;
+}
+.logo img{
+
+}
+nav{
+
+width: 50%;
+}
+nav ul{
+
+list-style: none;
+
+display: flex;
+
+justify-content: space-between;
+
+
+align-items: center;
+}
+nav ul li{
+
+}
+nav ul li a{
+    
+text-decoration: none;
+    
+color: #626262;
+    
+font-size: 18px;
+    
+text-transform: capitalize;
+font-family: 'Playfair Display', serif;
+}
+.banner{
+
+width: 90%;
+
+margin: auto;
+}
+.banner img{
+    
+width: 100%;
+}
+.photodairy_section{
+
+width: 80%;
+
+margin: auto;
+
+padding: 100px 0;
+}
+.photodairy_section h5{
+
+color: #b4ad9e;
+
+font-size: 14px;
+
+text-transform: uppercase;
+
+margin-bottom: 30px;
+font-family: 'Ubuntu', sans-serif;
+}
+.photodairy_section h1{
+
+color: #626262;
+
+font-size: 35px;
+font-family: 'Playfair Display', serif;
+
+text-transform: capitalize;
+}
+.photodairy_section p{
+    
+color: #626262;
+    
+font-size: 16px;
+    
+margin: 30px 0;
+font-family: 'Playfair Display', serif;
+}
+.lifestyle_content{
+
+display: flex;
+
+justify-content: space-between;
+
+flex-wrap: wrap;
+}
+.lifestyle{
+    
+width: 48%;
+    
+margin-top: 50px;
+}
+.lifestyle img{
+
+width: 100%;
+}
+.lifestyle h5{
+
+margin-bottom: 15px;
+
+margin-top: 20px;
+}
+.lifestyle h1{
+
+font-size: 30px;
+}
+.lifestyle p{
+
+margin: 20px 0;
+}
+.signup{
+
+background: #f0f0f0;
+
+padding: 100px 0;
+}
+.signup_content{
+
+width: 36%;
+
+margin: auto;
+
+text-align: center;
+
+position: relative;
+}
+.signup_content h1{
+
+font-size: 40px;
+
+font-weight: 500;
+
+text-transform: capitalize;
+
+color: #333333;
+
+margin-bottom: 100px;
+font-family: 'Playfair Display', serif;
+}
+.signup_content input{
+    
+background: transparent;
+    
+border: none;
+    
+border-bottom: 1px solid black;
+    
+width: 100%;
+    
+padding: 10px 0;
+caret-color:black;
+}
+
+.signup_content input::placeholder{
+    font-size: 20px;
+    color: #333333;
+    font-family: 'Playfair Display', serif;
+    text-transform: capitalize;
+}
+.signup_content input:focus-visible{
+    outline: none;
+}
+.icon{
+
+position: absolute;
+
+bottom: 0;
+
+right: 0;
+}
+.icon img{
+    
+}
+.loadmore{
+
+height: 300px;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+}
+.loadmore button{
+    
+background: transparent;
+    
+border: none;
+    
+border: 1px solid #c7c3c3;
+    
+padding: 25px;
+    
+font-size: 20px;
+font-family: 'Playfair Display', serif;
+}
+footer{
+
+background: #f0f0f0;
+
+height: 100px;
+
+display: flex;
+
+align-items: center;
+}
+.footer_content{
+
+width: 80%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+}
+.terms{
+
+width: 20%;
+}
+.terms ul{
+
+list-style: none;
+
+display: flex;
+
+justify-content: space-between;
+}
+.terms ul li{
+
+}
+.terms ul li a{
+
+text-decoration: none;
+
+text-transform: capitalize;
+
+color: #626262;
+}
+.social_media{
+
+width: 13%;
+}
+.social_media ul{
+
+list-style: none;
+
+display: flex;
+
+justify-content: space-between;
+}
+.social_media ul li{
+
+text-transform: capitalize;
+}
+.social_media ul li a{
+    
+color: #626262;
+}
